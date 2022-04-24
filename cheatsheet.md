@@ -12,3 +12,4 @@ cheatsheets, config, etc.
 ## file ops
 - i : insert mode
 - qw : save and quite
+- u : undo last change
