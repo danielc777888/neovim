@@ -3,6 +3,8 @@ cheatsheets, config, etc.
 
 ## cursor movement
 - b : previous word
+- ctrl-d : move forward half a screen
+- ctrl-u : move back half a screen
 - h : previous char
 - j : next line
 - k : previous line
