@@ -2,18 +2,20 @@
 cheatsheets, config, etc.
 
 ## cursor movement
-- b : previous word
-- ctrl-b : move back one full screen
-- ctrl-d : move forward half a screen
-- ctrl-f : move forward on full screen
-- ctrl-u : move back half a screen
+- b : Back 1 word
+- ctrl-b : move Back 1 full screen
+- ctrl-d : move Down 1/2 a screen
+- ctrl-f : move Forward 1 full screen
+- ctrl-u : move Up 1/2 a screen
+- gg : go to first line
+- G : Go to last line
 - h : previous char
 - j : next line
 - k : previous line
 - l : next char
-- w : next word
+- w : next Word
 
 ## file ops
-- i : insert mode
-- qw : save and quite
-- u : undo last change
+- i : Insert mode
+- qw : save and Quit
+- u : Undo last change
