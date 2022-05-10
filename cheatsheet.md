@@ -19,3 +19,6 @@ cheatsheets, config, etc.
 - i : Insert mode
 - qw : save and Quit
 - u : Undo last change
+
+## how to
+- indent a block of code
