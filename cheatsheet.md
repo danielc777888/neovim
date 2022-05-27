@@ -28,12 +28,15 @@ cheatsheets, config, etc.
 ## multiple files
 - :e - edit file in new buffer
 - :bn - go to next buffer
-- :bn - go to previous buffer
+- :bp - go to previous buffer
+- :bd - delete a buffer (close a file)
 - :b# - go to buffer by index #
 - :ls - list all buffers
 
 ## search and replace
-- :%s/old/new/g
+- /pattern - search for pattern
+- n - repeat word in same direction
+- N - repeat word in opposite direction
+- :%s/old/new/g - replace all old with new through file
 
-## how to
-- indent a block of code
+
