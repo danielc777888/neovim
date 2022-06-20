@@ -2,25 +2,29 @@
 cheatsheets, config, etc.
 
 ## cursor movement
-- [1]b - Back 1 word
-- ctrl+b - move Back 1 full screen
-- ctrl+d - move Down 1/2 a screen
-- ctrl+f - move Forward 1 full screen
-- ctrl+u - move Up 1/2 a screen
+- [1]b - back 1 word
+- ctrl+b - move back 1 full screen
+- ctrl+d - move down 1/2 a screen
+- ctrl+f - move forward 1 full screen
+- ctrl+u - move up 1/2 a screen
 - gg - go to first line
-- G - Go to last line
+- G - go to last line
 - [1]h - previous char
 - [1]j - next line
 - [1]k - previous line
 - [1]l - next char
-- [1]w - next Word
+- [1]w - next word
 
 ## inserting
-- i - Insert mode
+- i - insert mode (current cursor)
+- o - insert mode (start new line)
 
 ## editing
-- u - Undo last change
+- dd - delete line
+- dw - delete word
+- u - undo last change
 - ctrl+r - redo
+- shft+dw - delete till end of line, go to start of next line
 
 ## exiting
 - q - quit (fails if there are unsaved changes)
@@ -38,6 +42,7 @@ cheatsheets, config, etc.
 
 ## search and replace
 - /pattern - search for pattern
+- /pattern\C - search for pattern (case sensitive)
 - n - repeat word in same direction
 - N - repeat word in opposite direction
 - :%s/old/new/g - replace all old with new through file
